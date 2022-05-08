@@ -1,0 +1,78 @@
+/* the background color will be set to grey */
+body {
+    margin: 0;
+    background-color: rgb(119, 117, 117);
+}
+
+/* various font syles
+font color light green */
+h1, h2, h3, h4, p, li, article, a {
+    font-family: candara, copperplate, 'Lucida Sans', sans-serif;
+    color: rgb(212, 248, 219);
+}
+
+/* paragraph and article font size to be 20px */
+p, article {
+    font-size: 20px;
+}
+
+/* centering my text using a class */
+.text-center {
+    text-align: center;
+}
+
+/* setting my divider's width, padding, margin, border and color */
+div {
+    width: 500px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 20px 20px 25px 20px;
+    /* added in a height style to fit all of the content within the divider */
+    height: fit-content;
+}
+
+/* pseudo class links styling; going for light shades of different colors */
+a:link {
+    color:rgb(166, 208, 255);
+}
+
+a:visited {
+    color:rgb(252, 184, 225);
+}
+
+a:hover {
+    color:rgb(241, 224, 168)
+}
+
+a:active {
+    color:rgb(212, 248, 219)
+}
+
+/* using classes for a nice display 
+wrapper is to fill out 70% of the screen and wrap is to fill out 40% */
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.wrap {
+    width: 40%;
+    margin: auto;
+}
+
+/* making my image not be it's default size, because it is HUGE */
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* changing the size of my anchor, unordered list, and ordered list text */
+a, ul > li {
+    font-size: 22px;
+}
+
+/* taking away the ugly bullet points and numbers in my lists for aesthetics */
+ol, ul {
+    list-style-type: none;
+}
